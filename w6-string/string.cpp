@@ -119,6 +119,7 @@ string& string::operator+=(const char sym)
   }
   _string[_size] = sym;
   _string[++_size] = 0;
+  return *this;
 }
 
 //PRIVATE
